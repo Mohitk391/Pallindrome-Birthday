@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+:root {
+--primary-color: #BBB1E7;
+--off-white: #e8f0fa;
+--secondary-color : #718ea5;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    padding: 0rem 1rem;
+    
+}
+
+.container-center {
+    max-width: 37.5rem;
+    margin: auto;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--off-white);
+    display: inline;
+    padding-left :30rem;
+    
+}
+.navigation .nav-brand-info {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--off-white);
+    display: inline;
+    padding-right :25rem;
+    padding-left: 3rem;
+    
+}
+#info {
+    font-size: 2rem;
+    text-align: right;
+    color: var(--off-white);
+    text-decoration: none;
+    margin-left: 30vw;
+}
+
+#info:hover {
+    color: #403d45;
+}
+
+#back {
+    font-size: 2rem;
+    text-align: left;
+    color: var(--off-white);
+    text-decoration: none;
+    margin-right: 27vw;
+    margin-left: 3rem;
+}
+
+#back:hover {
+    color: #403d45;
+}
+
+.card {
+    margin-top: 1rem;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+}
+
+input {
+    width: 30em;
+    height: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: larger;
+    margin-bottom: 1rem;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color)
+}
+
+#btnSubmit {
+    font-size: larger;
+    border-radius: 1.565rem;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    background-color: var(--off-white);
+    color: var(--primary-color);
+}
+
+#btnSubmit:hover {
+    background-color : var(--primary-color);
+    color: var(--off-white);
+}
+
+#output {
+    font-size: medium;
+}
+
+.info {
+    width: 50vw; 
+    padding : 1rem;
+    margin: 2rem 25vw 1rem 25vw;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+    word-spacing: 0.5rem;
+
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.footer .logo-img {
+    width: 2.5rem;
+    /*display: black;*/
+    margin: auto;
+}
